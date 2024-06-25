@@ -14,19 +14,18 @@
 
     <div class="container">
 
-      <audio class="musica1" controls autoplay loop>
+      <audio class="musica1" id="musica2" loop>
          <source src="Musica e efeito/musica certa.mp3" type="audio/mpeg">
          Seu navegador não suporta o elemento de áudio.
       </audio>
-
+      
       <div class="Perfil">
          <a href="cadastro.html"><img src="imagens/PERFIL.png" alt="Perfil1"  class="icon"  width="45" height="45"> </a>
       </div>
 
       <div id="submenu" class="submenu1">
 
-         <img src="imagens/SON 2.png" height="40" width="40" class="musica" alt="Botão de Volume">
-     
+         <a onclick="botaoMusica()"><img src="imagens/SON 2.png" id="botaoMusica" height="40" width="40" class="musica" alt="Botão de Volume"> </a>
          <img src="imagens/SOM 1.png" height="40" width="40" class="efeito" alt="Botão de Efeitos Sonoros">
     
       </div>

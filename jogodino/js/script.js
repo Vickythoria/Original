@@ -122,17 +122,16 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
 
     // Aqui você pode adicionar a lógica de envio do formulário via AJAX ou outra ação necessária
 });
-
-document.addEventListener('DOMContentLoaded', (event) => {
-    const playButton = document.getElementById('playButton');
-    const musica = document.getElementById('musica');
-
-    playButton.addEventListener('click', () => {
-        if (musica.paused) {
-            musica.play();
-        } else {
-            musica.pause();
+function botaoMusica(){
+    console.log('estou aqui');
+    const musica = document.getElementById('musica2');
+    musica.play();
+        if (musica.muted == true){
+            musica.muted = false;
+        }else {
+            musica.muted = true;
         }
-    });
-});
+
+}
+// Adiciona funcionalidade de reprodução de áudio ao clicar na imagem "SON 2
 
