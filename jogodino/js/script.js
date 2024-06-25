@@ -123,3 +123,16 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
     // Aqui você pode adicionar a lógica de envio do formulário via AJAX ou outra ação necessária
 });
 
+document.addEventListener('DOMContentLoaded', (event) => {
+    const playButton = document.getElementById('playButton');
+    const musica = document.getElementById('musica');
+
+    playButton.addEventListener('click', () => {
+        if (musica.paused) {
+            musica.play();
+        } else {
+            musica.pause();
+        }
+    });
+});
+

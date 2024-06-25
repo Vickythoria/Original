@@ -71,6 +71,7 @@ const questions = [
         answers: ["12","8","10","5"],
         correct: 3
     },
+    
 ];
 
 let currentQuestionIndex = -1;
