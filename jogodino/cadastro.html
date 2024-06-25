@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet"   type="text/css"   href="css/style.css">
+</head>
+<body>
+    <div id="notification" class="notification">
+        Cadastro realizado com sucesso!
+    </div>
+    <div class="icon-container">
+        
+        <audio class="musica1" controls autoplay loop>
+            <source src="Musica e efeito/musica certa.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+
+        <img src="imagens/icone perfil.png" alt="Ícone 1" class="icon">
+        <div id="submenu" class="submenu2">
+
+            <img src="imagens/SON 2.png" height="40" width="40" class="musica" alt="Botão de Volume">
+        
+            <img src="imagens/SOM 1.png" height="40" width="40" class="efeito" alt="Botão de Efeitos Sonoros">
+       
+         </div>
+    </div>
+    <div class="outer-container">
+        <div class="container3">
+            <h2>Cadastro</h2>
+            <form id="cadastroForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+                
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+        
+    </div>
+
+    
+
+    <a href="index.html"> <img src="imagens/seta.png" width="40" height="40" class="Voltar"> </a>
+    <script src="js/script.js"></script>
+</body>
+</html>
